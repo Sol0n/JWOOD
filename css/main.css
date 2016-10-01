@@ -1,0 +1,318 @@
+/* -- ALL -- */
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	width: 1920px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "RobotoRegular", sans-serif;
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+
+/* -- Header -- */
+
+.slide {
+    font-size: 24px;
+    font-family: "Nexa Light","Arial Black", sans-serif;
+    letter-spacing: 0.6px;
+    line-height: 100%;
+    display: inline-block;
+    vertical-align: inherit;
+    margin: 0 23px;
+    margin-top: 25px;
+    text-decoration: none;
+}
+a {
+	color: #ddd;
+	text-decoration: none;
+}
+.slide a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+header ul {
+	margin: 0 auto;
+	margin-top: 16px;
+	padding: 0;
+
+}
+.my_navigation {
+	margin-bottom: 36px;
+}
+.my_navigation_2 .slide a:hover {
+	color: #aaa;
+}
+.border_1 {
+	margin-top: 35px;
+	-webkit-box-shadow: rgba(255,255,255,.5)0 0 0 1px;
+	box-shadow: rgba(255,255,255,.5)0 0 0 1px;
+	width: 93%;
+    margin:0 auto;
+}
+.border_2 {
+	margin-top: 35px;
+	-webkit-box-shadow: rgba(182,182,182,.5)0 0 0 1px;
+	box-shadow: #aeaeae(182,182,182,.5)0 0 0 1px;
+	width: 93%;
+    margin:0 auto;
+}
+.border_3 {
+	-webkit-box-shadow: rgba(182,182,182,.5)0 0 0 1px;
+	box-shadow: #aeaeae(182,182,182,.5)0 0 0 1px;
+	width: 93%;
+    margin:0 auto;
+    margin-top: 190px;
+}
+.view {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+/* -- Content -- */
+
+#content_pg1 {
+	background-image: url(../img/image/jpg/background_1.jpg);
+	background-repeat: repeat-x;
+	width: 1920px;
+	height: 1080px;
+}
+#content_pg2 {
+	width: 1920px;
+	height: 1080px;
+}
+#content_pg3 {
+	background-image: url(../img/image/jpg/background_2.jpg);
+	background-repeat: repeat-x;
+	width: 1920px;
+	height: 1080px;
+}
+.logo {
+	background-image: url(../img/image/png/logo.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height: 474px;
+	margin-top: 145px;
+}
+
+.name { 
+    background-image: url(../img/image/png/name.png);
+    background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+	height: 45px;
+	margin-top: 55px;
+}
+.scroll {
+	font-size: 18px;
+	color: #cacaca;
+    font-family: "Nexa Bold","Arial Black", sans-serif;
+    text-align: center;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+    position: relative;
+}
+.next_pg {     
+	margin-top: 138px;
+	width: 1920px;
+	height: 76px;
+	display: inline-block;
+}
+.next_pg_2 {     
+	margin-top: 82px;
+	width: 1920px;
+	height: 76px;
+	display: inline-block;
+}
+.next_pg_3 {     
+	margin-top: 61px;
+	width: 1920px;
+	height: 76px;
+	display: inline-block;
+}
+.link { 
+    background-image: url(../img/image/png/link.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: 32px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.foto {
+	margin-top: 74px;
+	float: left;
+    padding-left: 160px;
+}
+.resume h1{
+	letter-spacing: 0.1em;
+	font-size: 60px;
+    text-transform: uppercase;
+	font-family: "Nexa Light","Arial Black", sans-serif;
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+.resume p {
+    margin-top: 32px;
+    line-height: 38pt;
+}
+.resume {
+    font-family: "Open Sans","Arial Black", sans-serif;
+    font-size: 24px;
+    width: 640px;
+    min-height: 470px;
+    float: right;
+    display: inline-block;
+    margin-right: 291px;
+    margin-top: 104px;
+
+}
+.sign {
+	font-family: 'Felt Tip Woman', "Arial Black", sans-serif;
+	font-size: 36px;
+}
+.portfolio {
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 146px;
+}
+.pt_foto{
+	display: inline-block;
+	padding: 22px;
+}
+.title {
+    font-size: 60px;
+    font-family: "Nexa Light","Arial Black", sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    color: #cacaca;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    letter-spacing: 0.1em;
+}
+.contact {
+	text-align: center;
+	margin-top: 195px;
+
+}
+.mail {
+	font-family: "Nexa Light","Arial Black", sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    line-height: 100%;
+    padding-bottom: 50px;
+}
+.phone {
+	font-family: "Nexa Light","Arial Black", sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    line-height: 100%;
+    padding-bottom: 58px;
+}
+.mode {
+	font-family: "Nexa Bold","Arial Black", sans-serif;
+	font-size: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    line-height: 100%;
+    padding-bottom: 40px;
+}
+.fb_social {
+	width: 60px;
+	height: 60px;
+	background-image: url(../img/image/png/social.png);
+	background-position: 1px 1px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 25px;
+}
+.tw_social {
+	width: 60px;
+	height: 60px;
+	background-image: url(../img/image/png/social.png);
+	background-position: -80px 1px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 25px;
+}
+.ins_social {
+	width: 60px;
+	height: 60px;
+	background-image: url(../img/image/png/social.png);
+	background-position: -162px 1px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.footer {
+	font-family: "Nexa Light","Arial Black", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    line-height: 100%;
+    padding-bottom: 58px;
+	font-size: 18px;
+	color: #cacaca;
+	text-align: center;
+	padding: 42px;
+}
